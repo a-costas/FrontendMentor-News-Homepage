@@ -1,6 +1,6 @@
 import React from "react";
 
-import VisuallyHidden from "../../VisuallyHidden";
+import VisuallyHidden from "../../VisuallyHidden/VisuallyHidden";
 
 import styles from "./OtherArticles.module.css";
 
