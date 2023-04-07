@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor-News-Homepage/static/css/main.08d9aeb2.css",
+    "main.js": "/FrontendMentor-News-Homepage/static/js/main.a04eda33.js",
+    "static/media/Inter-ExtraBold.ttf": "/FrontendMentor-News-Homepage/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
+    "static/media/Inter-Bold.ttf": "/FrontendMentor-News-Homepage/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Regular.ttf": "/FrontendMentor-News-Homepage/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "index.html": "/FrontendMentor-News-Homepage/index.html",
+    "main.08d9aeb2.css.map": "/FrontendMentor-News-Homepage/static/css/main.08d9aeb2.css.map",
+    "main.a04eda33.js.map": "/FrontendMentor-News-Homepage/static/js/main.a04eda33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08d9aeb2.css",
+    "static/js/main.a04eda33.js"
+  ]
+}
