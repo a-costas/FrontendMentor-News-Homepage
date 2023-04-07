@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <div className={styles.navigation}>
-      <a href="/">
+      <a aria-label="W logo" href="/">
         <img
           className={styles.logo}
           src="assets/images/logo.svg"
