@@ -1,0 +1,103 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Lato", sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../public/assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+/* Custom global styles */
+html {
+  color-scheme: light;
+
+  --color-primary-font: hsla(240, 100%, 5%, 1);
+  --color-secondary-font: hsla(237, 13%, 42%, 1);
+  --color-tertiary-font: hsla(35, 78%, 62%, 1);
+  --color-primary-light-font: hsla(36, 100%, 99%, 1);
+  --color-secondary-light-font: hsla(236, 8%, 79%, 1);
+
+  --color-primary-hover-font: hsla(5, 85%, 63%, 1);
+  --color-secondary-hover-font: hsla(35, 78%, 62%, 1);
+
+  --color-primary-background: hsla(36, 100%, 99%, 1);
+  --color-secondary-background: hsla(240, 100%, 5%, 1);
+
+  --color-primary-button: hsla(5, 85%, 63%, 1);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: var(--color-primary-background);
+}

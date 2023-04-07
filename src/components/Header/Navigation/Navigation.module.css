@@ -1,0 +1,43 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  inset: 0;
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: brightness(40%);
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 68%;
+  max-width: 300px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5.3937rem;
+  background: hsla(36, 100%, 99%, 1);
+  padding: 1.7rem 1.3rem 1.7rem 1.5rem;
+}
+
+.closeBtn {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
+}
