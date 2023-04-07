@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor solution](https://www.frontendmentor.io/solutions/react-responsive-news-homepage-sxecdR8cGg)
+- Live Site URL: [Netlify deployment](https://642f7971d626670008f3a7b0--majestic-wisp-69bfde.netlify.app/)
 
 ## My process
 
