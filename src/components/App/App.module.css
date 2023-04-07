@@ -7,6 +7,7 @@
     margin: 5.5625rem 10.3125rem 8.0625rem;
     padding: 0;
 
+    /* Considered using grid-template-areas as an alternative for optimal alignment */
     /* grid-template-areas: 
     'header header header'
     'mainArticle mainArticle newArticles'
@@ -16,6 +17,7 @@
 
   .first {
     display: grid;
+    /* Initially tried 2fr 1fr, but the alignment was off */
     grid-template-columns: 1fr 350px;
     gap: 1.875rem;
   }

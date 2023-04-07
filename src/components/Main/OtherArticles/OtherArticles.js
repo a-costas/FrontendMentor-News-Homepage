@@ -1,10 +1,13 @@
 import React from "react";
 
+import VisuallyHidden from "../../VisuallyHidden";
+
 import styles from "./OtherArticles.module.css";
 
 function OtherArticles() {
   return (
     <div className={styles.wrapper}>
+      <VisuallyHidden>More Articles</VisuallyHidden>
       <div className={styles.article}>
         <img src="assets/images/image-retro-pcs.jpg" alt="Retro PC" />
         <div className={styles.content}>
