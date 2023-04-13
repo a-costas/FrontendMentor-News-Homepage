@@ -7,10 +7,10 @@ import styles from "../Header/Header.module.css";
 
 function Header() {
   const [isMenuOpen, toggleIsMenuOpen] = useToggle(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 375);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 670);
 
   const handleWindowSizeChange = () => {
-    setIsMobile(window.innerWidth <= 375);
+    setIsMobile(window.innerWidth <= 670);
   };
 
   useEffect(() => {

@@ -13,7 +13,7 @@ function Navigation({ handleDismiss, children }) {
             <button className={styles.closeBtn} onClick={handleDismiss}>
               <img
                 src="assets/images/icon-menu-close.svg"
-                alt="Hamburger Menu Button"
+                alt="Close button"
                 aria-hidden="true"
                 onClick={handleDismiss}
               />

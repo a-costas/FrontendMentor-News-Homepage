@@ -2,7 +2,7 @@
   padding: 0 1rem;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 670px) {
   .wrapper {
     margin: 5.5625rem 10.3125rem 8.0625rem;
     padding: 0;
